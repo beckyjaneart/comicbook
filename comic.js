@@ -43,7 +43,7 @@ function ComicBook($el, opts) {
     $pageMeta.innerHTML = page
     $pageMeta.className = 'comic__page-number'
     $spreadPage.appendChild($loading)
-    $spreadPage.appendChild($pageMeta)
+    // $spreadPage.appendChild($pageMeta)
     $img.src = path
     $img.onload = function () {
       $spreadPage.removeChild($loading)
